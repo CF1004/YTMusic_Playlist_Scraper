@@ -8,6 +8,8 @@ An Automated pipeline combining **Python**, **Selenium**, and **SQL** to scrape,
 - **SQL** (Schema design, Database creation, Normalization)
 - **Excel** (Data review, cleaning, structuring)
 
+---
+
 ## 🎯 Overview & Purpose
 
 This project connects three key technologies — **Python**, **Excel**, and **SQL** — to create a full data pipeline:
@@ -17,14 +19,19 @@ This project connects three key technologies — **Python**, **Excel**, and **SQ
 - Designed to automate scraping for a multitude of playlists (100K+ songs) - no manual entry required.
 - Once imported, data can be analyzed and queried directly in SQL.
 
+---
+
 ## 🗃️ Database Design
 
 
 ![Database Diagram](Database_Diagram.png)
 
 
+---
+
 ## 📦 SQL Database & Table Creation
 
+```sql
 create database Playlists;
 use Playlists;
 
