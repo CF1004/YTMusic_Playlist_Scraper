@@ -20,9 +20,39 @@ This project connects three key technologies — Python, Excel, and SQL — to c
 
 ![Database Diagram](Database_Diagram.png)
 
-Each table includes IDs and relationships for efficient querying and analysis.
 
-📊 Example Output
+📦 SQL Database & Table Creation
+
+create database Playlists;
+use Playlists;
+
+create table Playlists (
+	p_id int primary key,
+	p_name	varchar(30),
+);
+
+create table Artists (
+	a_id int primary key,
+	a_name varchar(20),
+	p_id int,
+	constraint fk_p_id_artists foreign key (p_id) references Playlists
+);
+
+create table Songs (
+	s_id int primary key,
+	s_name varchar(30),
+	album varchar(30),
+	release date,
+	p_id int,
+	constraint fk_p_id_songs foreign key (p_id) references Playlists
+);
+
+create table Songs_Artists (
+	s_id int,
+	a_id int,
+	constraint fk_s_id_songs_artists foreign key (s_id) references Songs,
+	constraint fk_a_id_songs_artists foreign key (a_id) references Artists
+);
 
 Playlist: Black Music - Best Of
 -   Song: Ready or Not Here I Come (Can't Hide from Love), Artist: The Delfonics, Album: The Sound Of Sexy Soul
