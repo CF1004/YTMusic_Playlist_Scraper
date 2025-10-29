@@ -7,7 +7,7 @@ This project connects three key technologies — Python, Excel, and SQL — to c
 1. Automated login to YouTube Music using Selenium and Chrome debugging mode.
 2. Playlist scraping with dynamic scrolling and XPath-based element detection.
 3. Data transfer from Excel into an SQL Server database using pyodbc and pandas.
-Designed to automate scraping for a multitude of playlists - no manual entry required.
+- Designed to automate scraping for a multitude of playlists - no manual entry required.
 
 🧰 Tools & Skills
 
@@ -24,6 +24,7 @@ Step	Description
 
 🗃️ Database Design
 
+![Schema](Database_Diagram)
 Each table includes IDs and relationships for efficient querying and analysis.
 
 📊 Example Output (Preview)
