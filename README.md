@@ -79,20 +79,21 @@ Playlist: Purity Ring - Best Of
 
 🧠 Highlights
 
-End-to-end ETL pipeline (Extract → Transform → Load)
-Automated web scraping with cookie-based authentication
-Dynamic content handling with scrolling & XPath parsing
-Multi-table relational SQL integration
-No manual entry — full automation
+- End-to-end ETL pipeline (Extract → Transform → Load)
+- Automated web scraping with cookie-based authentication
+- Dynamic content handling with scrolling & XPath parsing
+- Multi-table relational SQL integration
+- No manual entry — full automation
 
 🔍 Learnings
 
-Handling real-world cookie authentication challenges
-Structuring clean SQL schemas for scraped data
-Debugging Selenium and timing issues in dynamic pages
-Using Excel as a lightweight staging layer before SQL import
+- Handling real-world cookie authentication challenges
+- Structuring clean SQL schemas for scraped data
+- Debugging Selenium and timing issues in dynamic pages
+- Using Excel as a lightweight staging layer before SQL import
 
 💬 Summary
 
 This project demonstrates my ability to:
+
 Automate data extraction, manage large datasets, and integrate multiple tools into a cohesive workflow — from web scraping to database management.
