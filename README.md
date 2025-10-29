@@ -1,5 +1,5 @@
 # 🎵 YTMusic_Playlist_Scraper
-Automated pipeline using Python, Selenium, and SQL to scrape, clean, and store YouTube Music playlists in a relational database.
+An Automated pipeline combining **Python**, **Selenium**, and **SQL** to scrape, clean, and store YouTube Music playlists in a relational database.
 
 ⚙️ Tools Used
 - Python (Selenium, Pandas, JSON (cookies files), Requests)
@@ -54,6 +54,9 @@ create table Songs_Artists (
 	constraint fk_a_id_songs_artists foreign key (a_id) references Artists
 );
 
+-After running the first 2 Python scripts you get all data. Here is an
+🧠 Example Output
+
 Playlist: Black Music - Best Of
 -   Song: Ready or Not Here I Come (Can't Hide from Love), Artist: The Delfonics, Album: The Sound Of Sexy Soul
 -   Song: After Laughter (Comes Tears), Artist: Wendy Rene, Album: Stax-Volt: The Complete Singles 1959-1968
@@ -90,23 +93,13 @@ Playlist: Purity Ring - Best Of
 -   Song: soshy, Artist: Purity Ring, Album: graves
 -   Song: graves, Artist: Purity Ring, Album: graves
 
-🚀 Run Instructions
+⚠️ Note on Login / Cookies
 
-1️⃣ Start Chrome in debug mode:
-"D:\Software\Chrome Browser\chrome.exe" --remote-debugging-port=9222
-
-2️⃣ Run the scripts in order:
-- python 1_LoginToYTM.py
-- python 2_ScrapePlaylists.py
-- python 3_ImportToSQL.py
-
-🧠 Highlights
-
-- End-to-end ETL pipeline (Extract → Transform → Load)
-- Automated web scraping with cookie-based authentication
-- Dynamic content handling with scrolling & XPath parsing
-- Multi-table relational SQL integration
-- No manual entry — full automation
+Due to YouTube Music’s authentication structure, session cookies must be manually updated to enable login automation.
+This project demonstrates the scraping and database design logic, but running it fully requires:
+- Valid user session cookies
+- Selenium WebDriver setup
+- Basic knowledge of browser debugging tools
 
 🔍 Learnings
 
