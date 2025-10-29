@@ -63,7 +63,7 @@ create table Songs_Artists (
 	constraint fk_a_id_songs_artists foreign key (a_id) references Artists
 );
 
-
+```
 
 -After running the first 2 Python scripts you get all data. Here is an
 🧠 Example Output
