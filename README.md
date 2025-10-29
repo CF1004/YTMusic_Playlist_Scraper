@@ -31,7 +31,7 @@ Each table includes IDs and relationships for efficient querying and analysis.
 
 📊 Example Output
 
-- Playlist: Black Music - Best Of
+Playlist: Black Music - Best Of
 -   Song: Ready or Not Here I Come (Can't Hide from Love), Artist: The Delfonics, Album: The Sound Of Sexy Soul
 -   Song: After Laughter (Comes Tears), Artist: Wendy Rene, Album: Stax-Volt: The Complete Singles 1959-1968
 -   Song: Just Memories, Artist: Eddie Kendricks, Album: Keep On Truckin’: The Motown Solo Albums, Vol. 1
@@ -49,7 +49,7 @@ Each table includes IDs and relationships for efficient querying and analysis.
 -   Song: 溫泉鄉的吉他, Artist: 李雅芳, Album: 一曲情未了
 -   Song: Love Ballad, Artist: L.T.D., Album: Love To The World
 
-- Playlist: Purity Ring - Best Of
+Playlist: Purity Ring - Best Of
 -   Song: belispeak, Artist: Purity Ring, Album: shrines
 -   Song: obedear, Artist: Purity Ring, Album: shrines
 -   Song: lofticries, Artist: Purity Ring, Album: shrines
