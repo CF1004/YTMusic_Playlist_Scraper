@@ -24,7 +24,7 @@ Step	Description
 
 🗃️ Database Design
 
-![Schema](Database_Diagram)
+![Database Diagram](Database_Diagram.png)
 Each table includes IDs and relationships for efficient querying and analysis.
 
 📊 Example Output (Preview)
