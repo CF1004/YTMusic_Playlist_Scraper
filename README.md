@@ -104,22 +104,30 @@ Playlist: Purity Ring - Best Of
 -   Song: soshy, Artist: Purity Ring, Album: graves
 -   Song: graves, Artist: Purity Ring, Album: graves
 
-⚠️ Note on Login / Cookies
+Copy & Paste that into Excel, organise and run the third Python script which will import this into the SQL database.
 
-Due to YouTube Music’s authentication structure, session cookies must be manually updated to enable login automation.
+---
+
+## ⚠️ Note on Login / Cookies
+
+Due to YouTube Music’s authentication structure, session cookies must be manually extracted & updated to enable login automation.
 This project demonstrates the scraping and database design logic, but running it fully requires:
 - Valid user session cookies
 - Selenium WebDriver setup
 - Basic knowledge of browser debugging tools
 
-🔍 Learnings
+---
+
+## 🔍 Learnings
 
 - Handling real-world cookie authentication challenges
 - Structuring clean SQL schemas for scraped data
 - Debugging Selenium and timing issues in dynamic pages
 - Using Excel as a lightweight staging layer before SQL import
 
-💬 Summary
+---
+
+## 💬 Summary
 
 This project demonstrates my ability to:
 
