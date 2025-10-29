@@ -2,26 +2,26 @@
 An Automated pipeline combining **Python**, **Selenium**, and **SQL** to scrape, clean, and store YouTube Music playlists in a relational database.
 
 ## ⚙️ Tools Used
-- Python (Selenium, Pandas, JSON (cookies files), Requests)
-- SQL (Schema design, Database creation, Normalization)
-- Excel (Data review, cleaning, structuring)
+- **Python** (Selenium, Pandas, JSON for cookies, Requests)
+- **SQL** (Schema design, Database creation, Normalization)
+- **Excel** (Data review, cleaning, structuring)
 
-🎯 Overview & Purpose
+## 🎯 Overview & Purpose
 
-This project connects three key technologies — Python, Excel, and SQL — to create a full data pipeline:
+This project connects three key technologies — **Python**, **Excel**, and **SQL** — to create a full data pipeline:
 1. Automated login to YouTube Music using Selenium and Chrome in debugging mode.
 2. Playlist scraping with dynamic scrolling and XPath-based element detection.
 3. Data transfer from Excel into an SQL Server database using pyodbc and pandas.
-- Designed to automate scraping for a multitude of playlists (100,000 songs+) - no manual entry required.
-- Afterwards, data can be analysed and queried in SQL
+- Designed to automate scraping for a multitude of playlists (100K+ songs) - no manual entry required.
+- Once imported, data can be analyzed and queried directly in SQL.
 
-🗃️ Database Design
+## 🗃️ Database Design
 
 
 ![Database Diagram](Database_Diagram.png)
 
 
-📦 SQL Database & Table Creation
+## 📦 SQL Database & Table Creation
 
 create database Playlists;
 use Playlists;
