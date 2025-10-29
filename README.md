@@ -73,9 +73,9 @@ Playlist: Purity Ring - Best Of
 "D:\Software\Chrome Browser\chrome.exe" --remote-debugging-port=9222
 
 2️⃣ Run the scripts in order:
-python 1_LoginToYTM.py
-python 2_ScrapePlaylists.py
-python 3_ImportToSQL.py
+- python 1_LoginToYTM.py
+- python 2_ScrapePlaylists.py
+- python 3_ImportToSQL.py
 
 🧠 Highlights
 
