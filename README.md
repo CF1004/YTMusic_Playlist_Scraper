@@ -8,6 +8,7 @@ This project connects three key technologies — Python, Excel, and SQL — to c
 2. Playlist scraping with dynamic scrolling and XPath-based element detection.
 3. Data transfer from Excel into an SQL Server database using pyodbc and pandas.
 - Designed to automate scraping for a multitude of playlists (100,000 songs+) - no manual entry required.
+- Afterwards, data can be analysed and queried in SQL
 
 🧰 Tools & Skills
 
