@@ -104,7 +104,7 @@ Playlist: Purity Ring - Best Of
 -   Song: soshy, Artist: Purity Ring, Album: graves
 -   Song: graves, Artist: Purity Ring, Album: graves
 
-Copy & Paste that into Excel, organise and run the third Python script which will import this into the SQL database.
+Copy & paste the output into Excel, match the columns to the SQL tables, and run the third Python script to import everything into the database.
 
 ---
 
