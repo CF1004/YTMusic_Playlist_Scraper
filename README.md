@@ -4,31 +4,22 @@ An automated project combining Python, Selenium, and SQL to scrape, structure, a
 ⚙️ Overview
 
 This project connects three key technologies — Python, Excel, and SQL — to create a full data pipeline:
-
-Automated login to YouTube Music using Selenium and Chrome debugging mode.
-
-Playlist scraping with dynamic scrolling and XPath-based element detection.
-
-Data transfer from Excel into an SQL Server database using pyodbc and pandas.
-
-Built to handle over 2,000+ tracks and playlists efficiently — zero manual entry.
+1. Automated login to YouTube Music using Selenium and Chrome debugging mode.
+2. Playlist scraping with dynamic scrolling and XPath-based element detection.
+3. Data transfer from Excel into an SQL Server database using pyodbc and pandas.
+Designed to automate scraping for a multitude of playlists - no manual entry required.
 
 🧰 Tools & Skills
 
-Python (Selenium, Pandas, PyODBC)
-
-SQL Server for data storage and schema design
-
-Excel for intermediate data cleaning
-
-XPath / HTML parsing
-
-Automation & data engineering workflow
+- Python (Selenium, Pandas, PyODBC)
+- SQL Server for data storage and schema design
+- Excel for intermediate data cleaning
+- Automation & data engineering
 
 🧩 Project Flow
 Step	Description
-1. Login	Launches Chrome via debugging port and injects valid cookies for YT Music login.
-2. Scrape	Uses Selenium to scroll, detect, and extract playlist names, songs, artists, and albums.
+1. Login  Launches Chrome via debugging port and injects valid cookies for YT Music login.
+2. Scrape Uses Selenium to scroll, detect, and extract playlist names, songs, artists, and albums.
 3. Import	Cleans and loads the final Excel dataset into SQL tables (Playlists, Songs, Artists, etc.).
 
 🗃️ Database Design
