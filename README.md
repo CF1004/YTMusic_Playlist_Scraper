@@ -1,7 +1,7 @@
 # 🎵 YTMusic_Playlist_Scraper
 An Automated pipeline combining **Python**, **Selenium**, and **SQL** to scrape, clean, and store YouTube Music playlists in a relational database.
 
-⚙️ Tools Used
+## ⚙️ Tools Used
 - Python (Selenium, Pandas, JSON (cookies files), Requests)
 - SQL (Schema design, Database creation, Normalization)
 - Excel (Data review, cleaning, structuring)
