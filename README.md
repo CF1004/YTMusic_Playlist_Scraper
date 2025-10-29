@@ -66,7 +66,7 @@ create table Songs_Artists (
 ```
 
 -After running the first 2 Python scripts you get all data. Here is an
-🧠 Example Output
+## 🧠 Example Output
 
 Playlist: Black Music - Best Of
 -   Song: Ready or Not Here I Come (Can't Hide from Love), Artist: The Delfonics, Album: The Sound Of Sexy Soul
