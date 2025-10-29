@@ -37,20 +37,20 @@ use Playlists;
 
 create table Playlists (
 	p_id int primary key,
-	p_name	varchar(30),
+	p_name	varchar(150),
 );
 
 create table Artists (
 	a_id int primary key,
-	a_name varchar(20),
+	a_name varchar(150),
 	p_id int,
 	constraint fk_p_id_artists foreign key (p_id) references Playlists
 );
 
 create table Songs (
 	s_id int primary key,
-	s_name varchar(30),
-	album varchar(30),
+	s_name varchar(150),
+	album varchar(150),
 	release date,
 	p_id int,
 	constraint fk_p_id_songs foreign key (p_id) references Playlists
