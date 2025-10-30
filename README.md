@@ -124,7 +124,7 @@ This repo demonstrates the scraping, cleaning, and SQL ingestion **concept** —
 - Handling real-world cookie authentication challenges
 - Structuring clean SQL schemas for scraped data
 - Debugging Selenium timing and page-rendering issues on dynamic sites
-- *Start-to-finish project: database design, automated scraping, and a query-ready dataset.*
+- **Start-to-finish project: database design, automated scraping, and a query-ready dataset.**
 
 ---
 
