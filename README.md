@@ -66,7 +66,7 @@ create table Songs_Artists (
 ```
 
 After running the first two Python scripts, playlist and track data are extracted and ready for import.
-## 🧠 Example Output
+## 🧠 Example Output (Sample)
 
 Playlist: Black Music - Best Of
 -   Song: Ready or Not Here I Come (Can't Hide from Love), Artist: The Delfonics, Album: The Sound Of Sexy Soul
