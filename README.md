@@ -114,7 +114,7 @@ This repo demonstrates the scraping, cleaning, and SQL ingestion **concept** —
 
 - **No cookies or credentials are included.**  
 - Reproducing the live scrape requires technical setup (valid session cookies, Selenium, Chrome debug) and troubleshooting.  
-- Use this project for **education and demonstration only** 
+- This project is for **education and demonstration only** 
 
 ---
 
