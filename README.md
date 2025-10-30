@@ -110,11 +110,11 @@ Copy & paste the output into Excel, match the columns to the SQL tables, and run
 
 ## ⚠️ Note on Login / Cookies
 
-Due to YouTube Music’s authentication structure, session cookies must be manually extracted & updated to enable login automation.
-This project demonstrates the scraping and database design logic, but running it fully requires:
-- Valid user session cookies
-- Selenium WebDriver setup
-- Basic knowledge of browser debugging tools
+This repo demonstrates the scraping, cleaning, and SQL ingestion **concept** — not a plug-and-play scraper. YouTube Music’s authentication is dynamic, so the automated login step is fragile and depends on valid personal session cookies and a configured Selenium/WebDriver environment.
+
+- **No cookies or credentials are included.**  
+- Reproducing the live scrape requires technical setup (valid session cookies, Selenium, Chrome debug) and troubleshooting.  
+- Use this project for **education and demonstration only** 
 
 ---
 
