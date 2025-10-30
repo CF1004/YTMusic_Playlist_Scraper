@@ -120,10 +120,11 @@ This repo demonstrates the scraping, cleaning, and SQL ingestion **concept** —
 
 ## 🔍 Learnings
 
+- Python scripting for automation, parsing, and pipeline orchestration
 - Handling real-world cookie authentication challenges
 - Structuring clean SQL schemas for scraped data
-- Debugging Selenium and timing issues in dynamic pages
-- Using Excel as a lightweight staging layer before SQL import
+- Debugging Selenium timing and page-rendering issues on dynamic sites
+- *Start-to-finish project: database design, automated scraping, and a query-ready dataset.*
 
 ---
 
