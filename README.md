@@ -105,6 +105,7 @@ Playlist: Purity Ring - Best Of
 -   Song: graves, Artist: Purity Ring, Album: graves
 
 The extracted output can be pasted into Excel, columns matched to the SQL tables, then the third Python script executed to import the data into the database.
+
 ---
 
 ## ⚠️ Note on Login / Cookies
