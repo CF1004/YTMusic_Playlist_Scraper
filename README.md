@@ -65,7 +65,7 @@ create table Songs_Artists (
 
 ```
 
--After running the first 2 Python scripts you get all data. Here is an
+After running the first two Python scripts, playlist and track data are extracted and ready for import.
 ## 🧠 Example Output
 
 Playlist: Black Music - Best Of
