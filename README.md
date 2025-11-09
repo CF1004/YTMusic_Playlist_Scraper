@@ -7,6 +7,7 @@ An Automated pipeline combining **Python**, **Selenium**, and **SQL** to scrape,
 - **Python** (Selenium, Pandas, JSON for cookies, Requests)
 - **SQL** (Schema design, Database creation, Normalization)
 - **Excel** (Data review, cleaning, structuring)
+- **YouTube Music (Subscriber Account)
 
 ---
 
